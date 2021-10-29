@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TastyTV Randomizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- This is the header containg logo and login buttons -->
+    <header>
+      <h1 class="tastyTVtextlogo">TastyTV</h1>
+      <img class="tastytvLogo" src="./images/TastyTVLogo.jpg" alt="logo" />
+      <!-- Buttons -->
+      <div class="login-button">
+        <button id="login" onclick="login()">Login</button>
+        <button id="sign-up" onclick="goSignup()">Sign up</button>
+        <!-- Image -->
+        <img class="signinlogo" src="./images/avatar.jpg" alt="avatar" />
+      </div>
+    </header>
+    <br />
+    <!-- Nav Bar -->
+    <div>
+      <nav class="menu">
+        <nav class="menu">
+          <ul class="menulist">
+            <li class="buttonHeads"><a href="index.html">Home</a></li>
+            <li class="buttonHeads">
+              <a href="Programming.html">Programming</a>
+            </li>
+            <li class="buttonHeads">
+              <a href="randomMovie.html">Randomizer</a>
+            </li>
+            <li class="buttonHeads">
+              <a href="Registration.html">Register</a>
+            </li>
+          </ul>
+        </nav>
+      </nav>
+    </div>
+    <!-- Main body contains random movie selection button -->
+    <h1 class="randomizer">
+      Don't know what to watch?
+      <br />
+      Let the TastyTV randomizer do the hard work for you. Click the button to
+      find your next favourite movie or binge watch!
+    </h1>
+    <div>
+      <button id="random-movie">Get random movie</button>
+    </div>
+    <br />
+    <div class="random-main-body">
+      <div class="randomboxcontainer">
+        <div class="innerbox">
+          <img
+            src="https://c.tenor.com/7wYui6F-ij0AAAAC/cinema-movies.gif"
+            alt="random"
+            class="random-movie-image"
+          />
+          <p></p>
+          <p id="movie-details"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer bar containing social logos-->
+
+    <div>
+      <footer class="socialList">
+        <a href="https://www.facebook.com/">
+          <img
+            class="socialsLogo"
+            alt="facebook"
+            src="./images/Facebooklogo.png"
+          />
+        </a>
+        <a href="https://twitter.com/?lang=en-gb">
+          <img
+            class="socialsLogo"
+            alt="twitter"
+            src="./images/twitterlogo.png"
+          />
+        </a>
+        <a href="https://www.youtube.com/">
+          <img
+            class="socialsLogo"
+            alt="youtube"
+            src="./images/YouTubeLogo.png"
+          />
+        </a>
+        <a href="https://uk.linkedin.com/">
+          <img
+            class="socialsLogo"
+            alt="linkedin"
+            src="./images/Linkedinlogo.png"
+          />
+        </a>
+        <a href="https://www.instagram.com/">
+          <img
+            class="socialsLogo"
+            alt="instagram"
+            src="./images/instagram.png"
+          />
+        </a>
+      </footer>
+    </div>
+    <br />
+    <!-- Website copywrite -->
+    <div>
+      <p class="copywrite">(C) TastyTV 2021</p>
+    </div>
+    <script src="randomizer.js"></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,345 @@
+/* Below For EveryPage */
+
+/* Top Main Bar */
+
+body {
+  background-image: url("https://i.redd.it/4fxxbm4opjd31.jpg");
+  background-image: white;
+  font-family: Calibri;
+}
+
+.tastyTVtextlogo {
+  color: white;
+  -webkit-text-stroke: 1px rgb(204, 85, 0);
+}
+
+.tastytvLogo {
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+  padding: 5px;
+  width: 80px;
+  background-color: inherit;
+}
+
+.login-button {
+  grid-column: 3/5;
+  display: flex;
+  border-radius: 9px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1px;
+}
+
+.signinlogo {
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+  border-radius: 30px;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: papayawhip;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#login {
+  padding: 12px 28px;
+  border-radius: 10px;
+  margin: 4px 2px;
+  background-color: rgb(233, 166, 103);
+  font-size: 15px;
+}
+#login:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+#sign-up {
+  padding: 12px 28px;
+  border-radius: 10px;
+  margin: 4px 2px;
+  background-color: rgb(233, 166, 103);
+  font-size: 15px;
+}
+
+#sign-up:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+/* Menu Bar */
+
+.menulist {
+  height: 80px;
+  width: 100%;
+  background-color: papayawhip;
+  color: white;
+  border: solid white 1px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+nav,
+.header-buttons {
+  grid-column: unset;
+}
+
+h1,
+ul {
+  text-align: center;
+}
+
+ul {
+  display: block;
+  padding: 0;
+}
+
+.header-buttons {
+  justify-content: center;
+}
+
+.buttonHeads {
+  border: solid white 1px;
+  align-content: center;
+  padding: 10px;
+  font-size: 25px;
+  list-style-type: none;
+  border-radius: 10px;
+}
+
+.buttonHeads:hover {
+  background-color: white;
+}
+
+/* Bottom Bar */
+
+.socialsLogo {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px;
+  width: 50px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.socialList {
+  height: 80px;
+  background-color: papayawhip;
+  color: white;
+  border: solid white 1px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 5px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  border-radius: 10px;
+}
+
+.copywrite {
+  font-size: 12px;
+  background-color: rgb(204, 85, 0);
+  border-radius: 10px;
+  padding: 2px;
+}
+
+/* Above for every page */
+
+/* Index Page Main Content */
+
+.news-header {
+  font-weight: bold;
+}
+
+.mainboxcontainer {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.innerbox {
+  box-sizing: border-box;
+  position: relative;
+  border: solid white 3px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: papayawhip;
+  color: rgb(204, 85, 0);
+}
+
+h3 {
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: papayawhip;
+  border: white 1px solid;
+  padding: 3px;
+  color: rgb(204, 85, 0);
+}
+
+.newsimage {
+  width: 80px;
+}
+
+.news-main-body {
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.about-text {
+  background-color: papayawhip;
+  border-radius: 10px;
+  padding: 3px;
+  color: rgb(204, 85, 0);
+  border: white 1px solid;
+}
+
+/* Registration Page */
+
+#reg-header {
+  background-color: papayawhip;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2px;
+  border-radius: 10px;
+  color: rgb(204, 85, 0);
+  font-size: 20px;
+}
+
+.form {
+  padding: 5px;
+  border: 1px white solid;
+  background-color: papayawhip;
+  align-content: center;
+  margin: auto;
+  border-radius: 10px;
+}
+form.form {
+  display: table;
+}
+
+div.form {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+#submit {
+  padding: 12px 28px;
+  border-radius: 10px;
+  margin: 4px 2px;
+  background-color: rgb(233, 166, 103);
+  font-size: 15px;
+}
+#submit:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+/* random Movie */
+.randomboxcontainer {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  background-color: transparent;
+}
+
+h1 {
+  color: white;
+  -webkit-text-stroke: 1px rgb(204, 85, 0);
+}
+
+.randomizer {
+  background-color: papayawhip;
+  border-radius: 10px;
+}
+
+#random-movie {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(204, 85, 0);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#random-movie:hover {
+  background-color: goldenrod;
+}
+
+#random-movie:active {
+  background-color: lightgoldenrodyellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#movie-details {
+  font-size: 30px;
+}
+
+/* Programming Page */
+
+.progboxcontainer {
+  padding: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: white;
+  border-radius: 10px;
+}
+
+#morning {
+  padding: 12px 28px;
+  border-radius: 10px;
+  margin: 4px 2px;
+  background-color: lightgoldenrodyellow;
+}
+
+#morning:hover {
+  background-color: palegoldenrod;
+}
+
+#afternoon {
+  padding: 12px 28px;
+  border-radius: 10px;
+  margin: 4px 2px;
+  background-color: lightgoldenrodyellow;
+}
+
+#afternoon:hover {
+  background-color: lightpink;
+}
+
+#listing-text {
+  color: red;
+  -webkit-text-stroke: 1px rgb(204, 85, 0);
+  font-size: 20px;
+}
