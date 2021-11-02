@@ -1,134 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>TastyTV Today Listings</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- This is the header containg logo and login buttons -->
-    <header>
-      <h1 class="tastyTVtextlogo">TastyTV</h1>
-      <img class="tastytvLogo" src="./images/TastyTVLogo.jpg" alt="logo" />
-      <!-- Buttons -->
-      <div class="login-button">
-        <button id="login" onclick="login()">Login</button>
-        <button id="sign-up" onclick="goSignup()">Sign up</button>
-        <!-- Image -->
-        <img class="signinlogo" src="./images/avatar.jpg" alt="avatar" />
-      </div>
-    </header>
-    <!-- Nav Bar -->
-    <div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>TastyTV Today Listings</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- This is the header containg logo and login buttons -->
+  <header>
+    <h1 class="tastyTVtextlogo">TastyTV</h1>
+    <img class="tastytvLogo" src="./images/TastyTVLogo.jpg" alt="logo" />
+    <!-- Buttons -->
+    <div class="login-button">
+      <button id="login" onclick="login()">Login</button>
+      <button id="sign-up" onclick="goSignup()">Sign up</button>
+      <!-- Image -->
+      <img class="signinlogo" src="./images/avatar.jpg" alt="avatar" />
+    </div>
+  </header>
+  <!-- Nav Bar -->
+  <div>
+    <nav class="menu">
       <nav class="menu">
-        <nav class="menu">
-          <ul class="menulist">
-            <li class="buttonHeads"><a href="index.html">Home</a></li>
-            <li class="buttonHeads">
-              <a href="Programming.html">Programming</a>
-            </li>
-            <li class="buttonHeads">
-              <a href="randomMovie.html">Randomizer</a>
-            </li>
-            <li class="buttonHeads">
-              <a href="Registration.html">Register</a>
-            </li>
-          </ul>
-        </nav>
+        <ul class="menulist">
+          <li class="buttonHeads"><a href="index.html">Home</a></li>
+          <li class="buttonHeads">
+            <a href="Programming.html">Programming</a>
+          </li>
+          <li class="buttonHeads">
+            <a href="randomMovie.html">Randomizer</a>
+          </li>
+          <li class="buttonHeads">
+            <a href="Registration.html">Register</a>
+          </li>
+        </ul>
       </nav>
-    </div>
+    </nav>
+  </div>
 
-    <!-- Main body containing stream information -->
-    <div class="dayButton">
-      <button id="morning" onclick="goToday()">Morning</button>
-      <button id="afternoon" onclick="goTomorrow()">Afternoon</button>
-    </div>
+  <!-- Main body containing stream information -->
+  <div class="dayButton">
+    <button id="morning" onclick="goToday()">Morning</button>
+    <button id="afternoon" onclick="goTomorrow()">Afternoon</button>
+  </div>
 
-    <div class="body">
-      <div class="progboxcontainer">
-        <p id="listing-text">Here's the morning listings</p>
-        <div class="innerbox">
-          <img
-            id="img1"
-            src="./images/Realghostbusters.jpg"
-            alt="ghost"
-            class="newsimage"
-          />
-          <div class="news-header">7am - 8am</div>
-          <p id="name1"></p>
-          <div class="news-main-body">
-            <p id="film1"></p>
-          </div>
-        </div>
-        <br />
-        <div class="innerbox">
-          <img src="./images/bb.jpg" alt="bobsburgers" class="newsimage" />
-          <div class="news-header">8am - 9am</div>
-          <p id="name2"></p>
-          <div class="news-main-body">
-            <p id="film2"></p>
-          </div>
-        </div>
-        <br />
-        <div class="innerbox">
-          <img src="./images/sg.jpg" alt="sharky" class="newsimage" />
-          <div class="news-header">9am - 10am</div>
-          <p id="name3"></p>
-          <div class="news-main-body">
-            <p id="film3"></p>
-          </div>
-        </div>
-        <br />
-        <div class="innerbox">
-          <img src="./images/lk.jpg" alt="king" class="newsimage" />
-          <div class="news-header">10am - 12am</div>
-          <p id="name4"></p>
-          <div class="news-main-body">
-            <p id="film4"></p>
-          </div>
-        </div>
-      </div>
+  <div class="body">
+    <div class="progboxcontainer">
+      <p id="listing-text">Here's the morning listings</p>
     </div>
     <br />
     <!-- Footer bar containing social logos-->
     <div>
       <footer class="socialList">
         <a href="https://www.facebook.com/">
-          <img
-            class="socialsLogo"
-            alt="facebook"
-            src="./images/Facebooklogo.png"
-          />
+          <img class="socialsLogo" alt="facebook" src="./images/Facebooklogo.png" />
         </a>
         <a href="https://twitter.com/?lang=en-gb">
-          <img
-            class="socialsLogo"
-            alt="twitter"
-            src="./images/twitterlogo.png"
-          />
+          <img class="socialsLogo" alt="twitter" src="./images/twitterlogo.png" />
         </a>
         <a href="https://www.youtube.com/">
-          <img
-            class="socialsLogo"
-            alt="youtube"
-            src="./images/YouTubeLogo.png"
-          />
+          <img class="socialsLogo" alt="youtube" src="./images/YouTubeLogo.png" />
         </a>
         <a href="https://uk.linkedin.com/">
-          <img
-            class="socialsLogo"
-            alt="linkedin"
-            src="./images/Linkedinlogo.png"
-          />
+          <img class="socialsLogo" alt="linkedin" src="./images/Linkedinlogo.png" />
         </a>
         <a href="https://www.instagram.com/">
-          <img
-            class="socialsLogo"
-            alt="instagram"
-            src="./images/instagram.png"
-          />
+          <img class="socialsLogo" alt="instagram" src="./images/instagram.png" />
         </a>
       </footer>
     </div>
@@ -140,5 +81,6 @@
     <!-- script -->
     <script src="javascript.js"></script>
     <script src="programming.js"></script>
-  </body>
+</body>
+
 </html>
